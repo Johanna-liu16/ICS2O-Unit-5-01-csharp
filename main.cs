@@ -8,7 +8,7 @@ using System;
 class Program
 {
     public static void Main(string[] args)
-    {      
+    {
         // This function states user's address input.
         int userValue;
         Random rnd = new Random();
