@@ -21,11 +21,11 @@ class Program
         userValue = Convert.ToInt32(Console.ReadLine());
 
         //Process
-      if( userValue == randomNumber ) {
+      if(userValue==randomNumber) {
       Console.WriteLine("Congratulations!");
       }
 
-      if( userValue != randomNumber ) {
+      if(userValue!=randomNumber) {
       Console.WriteLine("Oops! The number was " + randomNumber + ".");
       }
 
